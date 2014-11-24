@@ -1,0 +1,20 @@
+{
+  "name": "Collective",
+  "version": "1.0.0",
+  "description": "collective v1.0.0",
+  "authors": [
+    "deuso"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "public/libs",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.1"
+  }
+}

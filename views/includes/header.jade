@@ -1,4 +1,16 @@
 .container
+  nav.navbar.navbar-inverse(role="navigation")
+    .navbar-header
+      a.navbar-brand(href="/") Collective
+    ul.nav.navbar-nav
+      li
+        a(href="/") 首页
+      li
+        a(href="/admin/list") 列表
+      li
+        a(href="/admin/movie") 录入
+      li
+        a(href="#") 关于
   .row
     .page-header
       h1= title
