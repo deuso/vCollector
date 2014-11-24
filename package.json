@@ -1,0 +1,26 @@
+{
+  "name": "Collective",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "dependencies": {
+    "express": "^4.10.2",
+    "jade": "^1.7.0",
+    "moment": "^2.8.4",
+    "mongoose": "^3.8.19"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:deuso/Collective.git"
+  },
+  "author": "deuso",
+  "license": "BSD",
+  "bugs": {
+    "url": "https://github.com/deuso/Collective/issues"
+  },
+  "homepage": "https://github.com/deuso/Collective"
+}
