@@ -21,7 +21,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.use(multer());
 app.use(express.static(path.join(__dirname, "public")));
 
-console.log('imooc started.');
+console.log('vCollector started.');
 
 app.get('/', function(req, res) {
     Movie.fetch(function(err, movies) {
